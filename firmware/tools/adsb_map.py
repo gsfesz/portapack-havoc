@@ -22,6 +22,7 @@ from __future__ import print_function
 import sys
 import struct
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = 233280000
 
 outfile = open('../../sdcard/ADSB/world_map.bin', 'wb')
 
